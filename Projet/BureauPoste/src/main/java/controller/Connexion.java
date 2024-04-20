@@ -5,6 +5,7 @@ public class Connexion {
 		Connection con = null;
 		try {
 			con = DriverManager.getConnection("jdbc:mysql://100.116.103.64:1524/tier2", "omar", "amrou2009@");
+			System.out.println("connected");
 		}
 		catch (SQLException e) {
 			System.out.println(e);
