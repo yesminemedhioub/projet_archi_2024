@@ -4,7 +4,7 @@ public class Connexion {
 	public static Connection connect() {
 		Connection con = null;
 		try {
-			con = DriverManager.getConnection("jdbc:mysql://localhost:1524/tier2", "root", "amrou2009");
+			con = DriverManager.getConnection("jdbc:mysql://100.116.103.64:1524/tier2", "omar", "amrou2009@");
 		}
 		catch (SQLException e) {
 			System.out.println(e);
